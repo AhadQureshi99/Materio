@@ -1,0 +1,41 @@
+body {
+  background-color: #f4f5fa;
+}
+
+
+.open-sub-height {
+  max-height: 1000px; /* Large enough to fit content */
+  overflow: hidden;
+  transition: max-height 0.9s ease-in-out; /* Set speed to 0.9s */
+}
+
+.sub-list {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.9s ease-in-out; /* Set speed to 0.9s */
+}
+
+
+@media(max-width:1180px){
+  .admin-list{
+    display: block !important;
+  }
+
+  .hide-on-small {
+    display: none;
+  }
+ 
+}
+
+
+@media(max-width:584px){
+  .transaction-icons{
+    flex-direction: column !important;
+  }
+}
+
+
+
+
+
+
